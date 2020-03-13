@@ -1,4 +1,6 @@
 # react-liftState-cw
+### Check you AppContainer and Player files for comments
+### Score : 3/5
 
 ### Exercise 1
 Create a `Player` component with player # label and a button. Call it twice from the parent component. In the parent component print out the Player number that pressed the button last.

@@ -8,6 +8,7 @@ class AppContainer extends Component{
         }
     }
     updateButton = () => {
+        // the value that ur setting playerclick to should be a param passed into your callback
         let updateButton = this.state.playerClick
         this.setState({playerClick : updateButton})
     }

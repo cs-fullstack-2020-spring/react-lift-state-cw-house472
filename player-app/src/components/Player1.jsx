@@ -9,6 +9,7 @@ class Player1 extends Component {
     updatePlayer = () => {
         
         this.setState({player : this.state.player})
+        // update button is not a prop passed in to the component from the parent
         this.props.updateButton();
     }
     render(){
